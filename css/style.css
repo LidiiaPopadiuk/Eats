@@ -1,0 +1,92 @@
+:root {
+    --text:#252B42;
+    --header:#FA4A0C;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 49px 0 41px 0;
+    height: 156px;
+}
+
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.header_link {
+    color: var(--text);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+letter-spacing: 0.2px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_link:hover {
+    color: var(--header);
+}
+
+.order {
+    background: url(../src/img/food_bg.png) center/cover no-repeat;
+    padding: 80px 0 162px 0;
+    height: 619px;
+}
+
+.order_subtitle {
+    color: #F6F6F6;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.1px;
+margin: 0;
+}
+
+.caption {
+    font-weight: 500;
+line-height: 38px; 
+letter-spacing: 0.2px;
+margin-top: 15px;
+}
+
+.order_title {
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 137.931% */
+letter-spacing: 0.2px;
+margin: 0;
+margin-top: 10px;
+}
+
